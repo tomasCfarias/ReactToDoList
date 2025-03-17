@@ -1,5 +1,5 @@
 # To Do List
-El programa hace te permite agregar tareas y tambien podrás tachar dichas tarea una vez que hayas terminado.
+El programa te permite agregar tareas y tambien podrás tachar dichas tarea una vez que hayas terminado.
 
 ## Modo de uso
 
