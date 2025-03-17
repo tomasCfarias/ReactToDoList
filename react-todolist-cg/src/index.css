@@ -1,0 +1,73 @@
+body{
+  background-color: white;
+}
+
+.to-do-list{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+button{
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-left: 5px;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-btn{
+  background-color: hsl(16, 100%, 66%);
+}
+
+.add-btn:hover{
+  background-color: hsl(16, 100%, 56%) ;
+}
+
+input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: hsla(0, 0%, 19%, 0.831);
+}
+
+ol{
+  padding: 0;
+}
+
+li{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: rgba(114, 114, 114, 0.11);
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+
+}
+
+li:hover{
+  background-color:rgba(75, 75, 75, 0.249) ;
+  cursor: pointer;
+}
+
+.text{
+  flex: 1;
+}
+
+.taskFinished{
+  text-decoration: line-through;
+  color: gray;
+}
+
+
+
