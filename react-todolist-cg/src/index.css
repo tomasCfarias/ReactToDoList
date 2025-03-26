@@ -60,6 +60,14 @@ li:hover{
   cursor: pointer;
 }
 
+.deleteBtn{
+  background-color: red;
+}
+
+.deleteBtn:hover{
+  background-color: hsla(0, 100%, 50%, 0.312);
+}
+
 .text{
   flex: 1;
 }

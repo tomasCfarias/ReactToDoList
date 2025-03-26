@@ -29,6 +29,11 @@ function TodoList() {
 
     };
 
+    function deleteTask(index){
+        const updateTask = task.filter((_, i) => i !== index);
+        setTask(updateTask)
+    }
+
 
   return (
     <>
@@ -59,6 +64,7 @@ function TodoList() {
                     >
                         {task}
                     </span>
+                    <button className='deleteBtn' onClick={() => deleteTask(index)}>Delete</button>
                 </li>)}
             </ol>
         </div>
